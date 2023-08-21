@@ -3,7 +3,7 @@ import pandas as pd
 import cv2 as cv
 import math as mt
 ########################### initial properties #############################
-filename='15150300.bmp'
+filename='image/15150300.bmp'
 image=cv.imread(filename,0)
 df=pd.read_csv('point.csv')
 point=df.values
